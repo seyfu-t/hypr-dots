@@ -1,25 +1,105 @@
-# --------------------------------------------------- // System
 # downgrade                                            # downgrade packages
 # trash-cli-git                                        # cli to manage trash files
 # libinput-gestures                                    # actions touchpad gestures using libinput
 # gestures                                             # gui for libinput-gestures
 
-# --------------------------------------------------- // Dependencies
-# emote                                                # emoji picker gtk3
-
-# --------------------------------------------------- // Gaming
 # smangohud                                               # system performance overlay
 # gamescope                                            # micro-compositor for gaming
-
-# --------------------------------------------------- // Apps
-
+# drawio-desktop-bin
 
 
-steam                                                  # gaming platform
-gamemode                                               # daemon and library for game optimisations
-xdg-desktop-portal-gtk                                 # xdg desktop portal using gtk
-neovim                                               # vim based text editor
+
+# General
+neovim
 nextcloud
 floorp-bin
+bind
+dosfstools
+etcher-bin
+gnome-calculator
+gwenview
+hoppscotch-app-bin
+imagemagick
+jq
+man-db
+mpv
+# vlc
+fastfetch
+openresolv
+p7zip
+pandoc-bin
+pavucontrol
+pdftk
+rsync
+usbmuxd
+v4l2loopback-utils
+virt-manager
+wev
+yt-dlp
+nerd-fonts
+
+# Dev
+maven
+jdk-openjdk
+bun-bin
+chromium
+docker
+docker-compose
+zed
+
+# Nvidia
+lib32-nvidia-utils
+lib32-opencl-nvidia
+libva-nvidia-driver
+nvidia-dkms
+nvidia-utils
+nvidia-settings
+nvtop
+opencl-nvidia
+
+# Hypr Bonus
+hypridle
+
+# FN Buttons
+brightnessctl
+
+
+# Compilation
+base-devel
+linux-headers
+
+# Gaming
+steam
+gamemode
+lutris
+vkd3d
+lib32-vkd3d
+vulkan-tools
+
+# Portals & XDG Stuff
+archlinux-xdg-menu
+xdg-desktop-portal-gtk
+xdg-desktop-portal-hyprland
+xdg-user-dirs
+
+
+# Dolphin
+dolphin-plugins
+kdegraphics-thumbnailers
+kimageformats
+libheif
+qt6-imageformats
+resvg
 kio
+kio-extras
+kio-gdrive
+ffmpegthumbs
+taglib
+audiocd-kio
+
+# KWallet
 kwallet
+kwalletmanager
+kwallet-pam
+ksshaskpass
+
